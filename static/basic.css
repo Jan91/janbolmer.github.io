@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: "Maison", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #16111c;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid rgba(219,211,233,0.8);
+}
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+hr.shortie {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lined {
+    border-top: 1px solid #dbd3e9;
+    border-bottom: 1px solid #dbd3e9;
+}
+
+.family-mono {
+    font-family: "Maison Mono", "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+
+.color-white {
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+.color-purple-light {
+    color: #c9c2e1;
+    fill: #c9c2e1;
+}
+
